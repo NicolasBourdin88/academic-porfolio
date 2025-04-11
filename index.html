@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>Portfolio</title>
+  <meta name="title" content="Portfolio" />
+
+  <!-- Link -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+</head>
+
+<body>
+  <header id="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <h1 id="logo">
+          <img src="./assets/logo.png" alt="Your Logo" />
+        </h1>
+        <!-- Navbar links -->
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+          <li><a class="nav-link" href="#work">WORK EXEPRIENCE</a></li>
+          <li><a class="nav-link" href="#">CONTACT</a></li>
+          <li>
+            <a class="nav-link btn btn-primary" href="assets/resume.pdf" target="_blank">RESUME 
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+
+          <!-- Toggle switch -->
+          <div class="theme-switch">
+            <input type="checkbox" id="switch" />
+            <label class="toggle-icons" for="switch">
+              <img class="moon" src="assets/moon.svg" />
+              <img class="sun" src="assets/sun.svg" />
+            </label>
+          </div>
+          <!-- Hamburger menu -->
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="header-container">
+      <img class="profile-image" src="assets/profile-image.svg" alt="" />
+      <h1>Hi I'm Nicolas</h1>
+
+      <div class="content-text">
+        <h2>Crafting mobile</h2>
+        <h2>apps, experiences, and interfaces.</h2>
+
+        <p>
+          A Mobile Developer with a passion for building smooth, performant apps for Android. Experienced in UI/UX,
+          cross-platform development, and turning ideas into intuitive experiences.
+        </p>
+      </div>
+
+      <a href="mailto:nicolas.bourdin@infomaniak.com" class="btn btn-secondary" target="_blank">Connect With Me</a>
+    </section>
+  </header>
+
+  <!-- Projects -->
+  <section id="projects" class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Check out some of my personal projects</p>
+    </div>
+
+    <article class="project">
+      <!-- Project 1 -->
+      <div class="card" onclick="window.location.href='pokemonApp.html'" style="cursor: pointer;">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Pokemon APP</h3>
+            <p>Android, Kotlin, Jetpack Compose, MVVM</p>
+          </div>
+      
+          <div class="project-link">
+            <a href="https://github.com/NicolasBourdin88/PokemonCardMobileApp" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div onclick="window.location.href='coasterCount.html'" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Coaster Count</h3>
+            <p>Android, Kotlin, Jetpack Compose, KMP</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://coaster-count.com/" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porject 3 -->
+      <div onclick="window.location.href='ames.html'" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>A.M.E.S</h3>
+            <p>Android, iOS, KMP, Jetpack Compose, Kotlin, Swift</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/NicolasBourdin88/A.M.E.S-3.0" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div onclick="window.location.href='orderEat.html'" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Order EAT</h3>
+            <p>Android, Java, Kotlin, XML, Jetpack Compose, MVVM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div onclick="window.location.href='formulaApp.html'" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Formula APP</h3>
+            <p>Kotlin, Jetpack Compose, MVVM</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/NicolasBourdin8/F1_app_iut/settings" target="_blank"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div onclick="window.location.href='clustering.html'" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Clustering project</h3>
+            <p>C++, Mathematicks, Complex algorithm</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Work Experience</h2>
+      <p>Here’s a quick look at one of my recent professional experiences</p>
+    </div>
+
+    <article class="project">
+      <div class="card card-work">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Infomaniak</h3>
+            <p>Kotlin, Jetpack Compose, XML, Java</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <a href="mailto:nicolas.bourdin@infomaniak.com">nicolas.bourdin@infomaniak.com</a>
+      <!-- Social links -->
+      <div class="social">
+        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/linkedin-icon.svg" alt="Linkedin" />
+          <a href="https://github.com/NicolasBourdin88" target="_blank"><img src="./assets/github-icon.svg"
+              alt="GitHub" />
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
